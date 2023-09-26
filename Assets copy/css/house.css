@@ -1,0 +1,454 @@
+.main-house {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+}
+
+.house-first,
+.house-second,
+.house-third,
+.house-photo,
+.house-fourth,
+.feedback,
+.house-logo,
+.house-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 60px;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.house-second,
+.house-third {
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #4e6ca87d;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.house-third {
+    background-color: #b04d4d;
+    gap: 10px;
+    padding-bottom: 70px;
+}
+
+.image {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.house-first h2 {
+    color: #a1a1a1;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+.house-first h1 {
+    color: #000000;
+    font-family: 'Playfair Display', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+.house-first p {
+    width: 600px;
+    color: #5d5c5c;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 22px;
+    font-weight: normal;
+}
+
+.more-house {
+    background: #e85711;
+    color: #ffffff;
+    font-family: 'Kreon', 'Times New Roman', Georgia, serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.house-second h2 {
+    color: #000000;
+    font-family: 'Playfair Display', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.house-container {
+    display: flex;
+    gap: 30px;
+    padding: 0px 30px;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.box-house {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-house span {
+    color: #000000;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.box-house h3 {
+    color: #1e52bd;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.small-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-box h2 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}
+
+.small-box p {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+    font-weight: normal;
+    width: 350px;
+}
+
+.mini-box .view {
+    font-family: 'Kreon', Georgia, serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: transparent;
+    color: #1e52bd;
+    border: 1px solid #1e52bd;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.house-second a {
+    font-family: 'Kreon', Georgia, serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: #1e52bd;
+    color: #ffffff;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.box-third {
+    display: flex;
+    margin-left: 80px;
+}
+
+.house-third h2 {
+    color: #000000;
+    font-family: 'Playfair Display', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.third-small {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 30px;
+}
+
+.third-small h3,
+.third-small-part h3 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    font-weight: bold;
+}
+
+.third-small span,
+.third-small-part span {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.third-small p,
+.third-small-part p {
+    color: white;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: normal;
+    width: 300px;
+}
+
+.third-small-part p {
+    width: 400px;
+}
+
+.third-small-part {
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.image {
+    width: 700px;
+    height: auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.house-third a {
+    font-family: 'Kreon', Georgia, serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: white;
+    color: #b04d4d;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.image1 {
+    width: 100px;
+    height: auto;
+}
+
+.image1 img {
+    width: 150px;
+}
+
+.house-photo {
+    background-image: url('../img/LA.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.house-photo a {
+    background: #e85711;
+    color: #ffffff;
+    font-family: 'Kreon', 'Times New Roman', Georgia, serif;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+
+.house-fourth {
+    padding-top: 60px;
+}
+
+.house-fourth h3 {
+    color: #a1a1a1;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.house-fourth h2 {
+    color: #000000;
+    font-family: 'Playfair Display', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.pictures {
+    display: flex;
+    gap: 20px;
+}
+
+.house-fourth p {
+    width: 550px;
+    color: #5d5c5c;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    border-bottom-left-radius: 0%;
+}
+
+.f1 {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.f1 img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.f1 p {
+    width: 220px;
+    color: #5d5c5c;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.f1 span {
+    color: #000000;
+    font-family: 'Playfair Display', Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.house-logo img {
+    width: 100%;
+    width: 700px;
+    height: 250px;
+}
+
+.house-navigation {
+    flex-direction: row;
+    gap: 60px;
+}
+
+.first-nav,
+.second-nav,
+.third-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.first-nav h2,
+.second-nav h2,
+.third-nav h2 {
+    color: #5d5c5c;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.second-nav {
+    margin-top: 25px;
+}
+
+.first-nav {
+    position: relative;
+    bottom: 10px;
+}
+
+.first-nav ul li,
+.second-nav ul li,
+.third-nav ul li {
+    color: #5d5c5c;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: normal;
+}
